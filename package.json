@@ -1,0 +1,15 @@
+{
+  "name": "bare-server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "./node_modules/nodemon/bin/nodemon.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
